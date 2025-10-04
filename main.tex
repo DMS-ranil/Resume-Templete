@@ -1,0 +1,199 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage[margin=1.4cm]{geometry}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.15in}
+ \addtolength{\textwidth}{0.3in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{0pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}\vspace{0pt}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Large \scshape First Name Last Name} \\[2mm]
+    \footnotesize \raisebox{-0.1\height}
+    \faPhone\ \underline{+123456789} ~ 
+    {\faEnvelope\  \underline{email@email.com}} ~ 
+    {\faLinkedin\ \underline{\href{https://ba.linkedin.com/}{LinkedIn}}  ~
+    {\faGithub\ \underline{\href{https://github.com/}{Github}} ~
+    {\faBriefcase\ \underline{\href{http://mywebsite.ba/}{Portfolio}}
+    \vspace{-8pt}
+\end{center}
+
+ %-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{   
+     \textbf{Software}{: Skill#1, Skill#2, Skill#3, Skill#4, Skill#5, Skill#6, Skill#7, Skill#8} \\[1mm]
+     \textbf{Hardware}{: Skill#1, Skill#2, Skill#3, Skill#4, Skill#5, Skill#6, Skill#7, Skill#8} \\[1mm]
+     \textbf{Networking}{: Skill#1, Skill#2, Skill#3, Skill#4, Skill#5, Skill#6, Skill#7, Skill#8} \\ [1mm]
+     \textbf{Languages}{: Skill#1, Skill#2, Skill#3} \\[1mm]
+     \textbf{Developer tools}{: Skill#1, Skill#2, Skill#3} \\[1mm]
+     \textbf{AI tools}{: Skill#1, Skill#2, Skill#3} \\[1mm]
+    }}
+ \end{itemize}
+ 
+%-----------Experience---------------
+\section{Work Experience}
+    \resumeSubHeadingListStart
+                \resumeSubheading{CompanyName}{July 2020 -- Present}{DevOps}{City, State, State (remote)} 
+                \resumeItemListStart
+                    \resumeItem{Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.}
+                    \resumeItem{Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.}
+                    \resumeItem{Lorem ipsum dolor sit amet consectetur adipiscing elit.}
+                    \resumeItemListEnd
+            \resumeSubheading{CompanyName}{July 2022 -- July 2024}{Software Engineer}{City, State, State (hybrid)} 
+                \resumeItemListStart
+                    \resumeItem{Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.}
+                    \resumeItem{Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.}
+                    \resumeItem{Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.}
+                    \resumeItemListEnd
+            \resumeSubheading{CompanyName}{July 2016 -- July 2019}{Software Developement}{City, State, State (On-Site)}
+                \resumeItemListStart
+                    \resumeItem{Lorem ipsum dolor sit amet consectetur adipiscing elit.}
+                    \resumeItem{Lorem ipsum dolor sit amet consectetur adipiscing elit.}
+                    \resumeItem{Lorem ipsum dolor sit amet consectetur adipiscing elit.}
+                    \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    \vspace{-12pt}
+
+%-----------PROJECTS-----------
+\section{Projects \& Certifications} 
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+            {\textbf{{Project#1}} $|$ \emph{\href{https://github.com//}{GitHub}}}{Programming Language $|$ Programming Language}
+            \\[5mm]
+          \resumeItemListStart
+            \resumeItem{Lorem ipsum dolor sit amet consectetur adipiscing elit.}
+          \resumeItemListEnd
+ \vspace{-20pt}
+ \resumeProjectHeading
+            {\textbf{{Interactive Resume}} $|$ \emph{\href{https://github.com/}{GitHub}}}{Programming Language $|$ Programming Language}
+            \\[5mm]
+          \resumeItemListStart
+            \resumeItem{Lorem ipsum dolor sit amet consectetur adipiscing elit.}
+          \resumeItemListEnd
+ \vspace{-17pt}
+ \resumeProjectHeading
+{\textbf{{Certifications}} }{}
+\\[5mm]
+\resumeItemListStart
+\resumeItem{Lorem ipsum dolor sit amet consectetur adipiscing elit.}
+\resumeItem {Lorem ipsum dolor sit amet consectetur adipiscing elit.}
+\resumeItem{Lorem ipsum dolor sit amet consectetur adipiscing elit.}
+\resumeItem{Lorem ipsum dolor sit amet consectetur adipiscing elit.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-28pt}
+ 
+ %-----------EDUCATION-----------
+\section{Education} \\[1mm]
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {College}{Date 2014 - Date 2016}
+      {Bachelors of Science in Computer Science
+      }{City, State}
+  \resumeSubHeadingListEnd
+    \resumeItemListStart
+        \resumeItem { \textbf{GPA: 8.0/10.0}}
+        \vspace{-7pt}
+        \resumeItem {Lorem ipsum dolor sit amet consectetur adipiscing elit.}
+    \resumeItemListEnd
+    \vspace{-12pt}
+ \vspace{-16pt}
+ \vspace{3pt}
+\vspace{10pt}
+
+\vspace{-15pt}
+
+
+
+\end{document}
